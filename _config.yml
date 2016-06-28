@@ -1,20 +1,18 @@
 title:            genepoo
 tagline:          Poorvi Kaushik
 description:      Showcasing some of my work and personal projects.
-canonical: http://jekyll.gtat.me
+canonical: http://genepoo.github.io
 
 # Owner/author information
 owner:
   name:           Poorvi Kaushik
   avatar:         avatar.png
   bio:            "Aesthete & Athlete"
-  email:          poorvi.kaushik@gmai.com
-  twitter:        twnsndco
-  github:         coletownsend
-  instagram:      ctrunsthis
-  dribbble:       coletownsend
-  disqus:         balzac
-  location:       "Buffalo, NY"
+  email:          poorvi.kaushik@gmail.com
+  twitter:        gene_poo
+  github:         genepoo
+  linkedin:       https://www.linkedin.com/in/poorvi-kaushik-327117b8			
+  location:       "New York, NY"
   # Plug in your disqus shortname!
 
 tools:
@@ -34,7 +32,7 @@ links:
     url: https://genepoo.github.io
     external: true
   - title: Resume
-    url: http://coletownsend.com
+    url: /pdf/KaushikResume.pdf
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
