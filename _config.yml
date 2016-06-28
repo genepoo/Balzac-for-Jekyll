@@ -1,14 +1,14 @@
-title:            Balzac
-tagline:          A beautiful theme.
-description:      Describe your website.
+title:            genepoo
+tagline:          Poorvi Kaushik
+description:      Showcasing some of my work and personal projects.
 canonical: http://jekyll.gtat.me
 
 # Owner/author information
 owner:
-  name:           Cole Townsend
+  name:           Poorvi Kaushik
   avatar:         avatar.png
   bio:            "Aesthete & Athlete"
-  email:          cole@coletownsend.com
+  email:          poorvi.kaushik@gmai.com
   twitter:        twnsndco
   github:         coletownsend
   instagram:      ctrunsthis
@@ -31,9 +31,9 @@ links:
   - title: About
     url: /about
   - title: Github
-    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
+    url: https://genepoo.github.io
     external: true
-  - title: Cole Who?
+  - title: Resume
     url: http://coletownsend.com
     external: true
 
