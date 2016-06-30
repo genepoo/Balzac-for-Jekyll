@@ -9,7 +9,7 @@ tags:
   - theme
   - responsive
 image:
-  feature: 'https://farm8.staticflickr.com/7014/6840341477_e49612bc59_o_d.jpg'
+  feature: PoorviBG.jpg
 published: true
 ---
  
