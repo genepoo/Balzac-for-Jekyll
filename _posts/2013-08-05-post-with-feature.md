@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Post and Feature Image
+title: Visualizing passages of music
 description: >-
   In my younger and more vulnerable years my father gave me some advice that
   I’ve been turning over in my mind ever since.
