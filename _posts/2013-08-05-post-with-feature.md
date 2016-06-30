@@ -24,9 +24,6 @@ audio=loader()
 
 ```python
 pExt = PredominantPitchMelodia(frameSize = 2048, hopSize = 128)
-```
-
-```python
 pitch, pitchConf = pExt(audio)
 ```
 
