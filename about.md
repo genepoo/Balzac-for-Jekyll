@@ -12,7 +12,7 @@ tags:
   - theme
   - responsive
 image:
-  feature: soft-trees.jpg
+  feature: KeralaBG.jpg
 published: true
 ---
  
