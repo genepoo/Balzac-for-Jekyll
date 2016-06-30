@@ -8,8 +8,7 @@ tags:
   - Jekyll
   - theme
   - responsive
-image:
-  feature: PoorviBG.png
+image: PoorviBG.png
 published: true
 ---
  
