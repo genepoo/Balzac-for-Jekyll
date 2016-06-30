@@ -2,12 +2,7 @@
 layout: post
 permalink: /about/index.html
 title: About
-description: |-
-  tags:
-   - about
-   - Jekyll
-   - theme
-   - responsive
+description: null
 tags:
   - about
   - Jekyll
