@@ -9,7 +9,7 @@ tags:
   - theme
   - responsive
 image:
-  feature: KeralaBG.jpg
+  feature: PoorviBG.png
 published: true
 ---
  
