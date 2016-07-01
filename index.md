@@ -1,10 +1,10 @@
 ---
 layout: home
-title: "Recent Posts"
+title: "Bio"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: typewriter.jpg
 ---
-
-{% capture about %} {% inlcude about.md %} {% endcapture %}
+{% capture about %} {% include about.md %} {% endcapture %}
+{{ about | markdownify }}
 
