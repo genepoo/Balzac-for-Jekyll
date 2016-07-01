@@ -3,7 +3,7 @@
 <section class="article">
 
 {% if page.image.feature %}
-  <div class="overlay"></div>
+  <div class="overlay overlay-lighter"></div>
   {% if page.image.feature contains 'https://' | escape or page.image.feature contains 'http://' | escape %}
   <div class="featured-image" style="background-image: url({{ page.image.feature }})"></div>
   {% else %}
