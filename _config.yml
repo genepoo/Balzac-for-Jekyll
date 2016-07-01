@@ -1,7 +1,7 @@
 title:            Poorvi Kaushik
 tagline:          Poorvi Kaushik
 description:      Showcasing some of my work and personal projects.
-canonical: http://genepoo.github.io
+canonical:        http://genepoo.github.io
 
 # Owner/author information
 owner:
@@ -26,10 +26,12 @@ opengraph:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
+  - title: Blog
+    url: /articles
+   - title: about
     url: /about
   - title: Github
-    url: https://genepoo.github.io
+    url: https://github.com/genepoo
     external: true
   - title: Resume
     url: /pdf/KaushikResume_2016June27.pdf
