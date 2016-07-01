@@ -28,8 +28,6 @@ opengraph:
 links:
   - title: Blog
     url: /articles
-  - title: about
-    url: /about
   - title: Github
     url: https://github.com/genepoo
     external: true
