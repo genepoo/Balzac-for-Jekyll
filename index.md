@@ -6,4 +6,5 @@ image:
   feature: typewriter.jpg
 ---
 
-{% inlcude about.md %} {% endcapture %}
+{% capture about %} {% inlcude about.md %} {% endcapture %}
+
