@@ -9,7 +9,7 @@ tags:
   - jekyll
   - tutorial
 image:
-  feature: tealeaves.jpg
+  feature: teaplantations.jpg
 published: true
 ---
 
