@@ -54,6 +54,6 @@ for (i in  seq(0,init,by=1/fps))
 
 Then I used FFmpeg to stitch the images into a video, along with an mp3 of the source track to give me the result. 
 
-```{r}
+```python
 ffmpeg -framerate 10 -i location/of/generated/plots/tunePlot%07d.jpg -i sourceaudio.mp3 -c:v libx264 -pix_fmt yuv420p yay-video!.mp4
 ```
