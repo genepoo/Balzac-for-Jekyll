@@ -32,7 +32,27 @@ output = np.column_stack((time.flatten(),pitch.flatten()))
 np.savetxt('path/to/output.txt',output,delimiter='\t')
 ```
 
-To animate the results I got, I divided the frequencies we calculated by the tonic of each piece, also detectable using Essentia. This allowed me to view the results in the solfege space familiar to me. I reverted to R's ggplot to first generate individual frames of the time vs frequency videos. Then I used FFmpeg to stitch the images into a video, along with an mp3 of the source track to give me the result. 
+To animate the results I got, I divided the frequencies we calculated by the tonic of each piece, also detectable using Essentia. This allowed me to view the results in the solfege space familiar to me. I reverted to R's ggplot to first generate individual frames of the time vs frequency videos. I'm not going to put all the R code here but as an illustration, I looped through the data to produce images corresponding to each frame of the video I wanted. I wonder if there's an easier way to do this..
+
+```python
+winS = 15 #Time window for each frame in seconds
+fps = 10 # frames per second
+min=0.6 # lowest frequency ratio (to tonic) I want in the plot
+max=3 # highest frequency ratio I want in the plot
+
+# generate plots for initial phase 
+# (during which the red reference line doesn't move, the pitch graph appears to move behind it)
+init = 4 #duration in seconds - initial phase
+for (i in  seq(0,init,by=1/fps))
+{
+  
+  jpeg(paste(getwd(),"/", folder,"/tunePlot",sprintf("%07.0f", fps*i),".jpg", sep=""), width=640, height=360)
+  print(ggplot(TvsP[TvsP$Time>0&TvsP$Time<=winS,], aes(x=Time, y=p2))+geom_line(size=0.5)+scale_y_continuous(breaks = c(0.6667, 0.75, 0.8333, 0.9375, 1.000, 1.125,1.25, 1.333, 1.5, 1.6667, 1.875,2, 2.25, 2.5, 2.667, 3), labels=c("fa", "sol", "la", "ti", "do", "re", "mi", "fa", "sol", "la", "ti", "do", "re", "mi", "fa", "sol"), trans='log2', limits=c(min, max))+scale_x_continuous(breaks=seq(0,winS))+ geom_vline(xintercept=i, linetype = "dashed", color='red')+xlab("Time (seconds)")+ylab("Pitch"))
+  dev.off()
+}
+```
+
+Then I used FFmpeg to stitch the images into a video, along with an mp3 of the source track to give me the result. 
 
 ```{r}
 ffmpeg -framerate 10 -i location/of/generated/plots/tunePlot%07d.jpg -i sourceaudio.mp3 -c:v libx264 -pix_fmt yuv420p yay-video!.mp4
