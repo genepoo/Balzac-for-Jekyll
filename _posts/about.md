@@ -2,6 +2,7 @@
 layout: post
 permalink: /about/index.html
 title: About
+categories: about
 description: null
 tags:
   - about
