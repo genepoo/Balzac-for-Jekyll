@@ -21,7 +21,9 @@
             {% if site.owner.linkedin %}
             <li><a id="link" href="http://linkedin.com/in/{{ site.owner.linkedin }}" target="_blank"><span class="foot-link">LinkedIn</span></a></li>
             {% endif %}
-
+            {% if site.owner.scholar %}
+            <li><a id="schol" href="https://scholar.google.com/citations?user={{ site.owner.scholar }}" target="_blank"><span class="foot-link">Publications</span></a></li>
+            {% endif %}
             {% if site.owner.dribbble %}
             <li><a id="drib" href="http://dribbble.com/{{ site.owner.dribbble }}" target="_blank"><span class="foot-link">Dribbble</span></a></li>
             {% endif %}
