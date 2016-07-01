@@ -1,9 +1,10 @@
 ---
 layout: post
-permalink: /about/index.html
 title: About
 categories: about
 description: null
+date:
+  'Fri Jul 1 2016 20:00:00 GMT-0400 (EDT)': null
 tags:
   - about
   - Jekyll
