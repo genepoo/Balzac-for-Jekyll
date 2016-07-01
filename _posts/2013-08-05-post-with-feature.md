@@ -34,6 +34,6 @@ np.savetxt('path/to/output.txt',output,delimiter='\t')
 
 To animate the results I got, I divided the frequency we observed by the tonic of each piece, also detectable using Essentia. This allowed me to view the results in the solfege space familiar to me. I reverted to R's ggplot to first generate individual frames of the time vs frequency videos. Then I used FFmpeg to stitch the images into a video, along with an mp3 of the source track to give me the result. 
 
-```ffmpeg
+```python
 ffmpeg -framerate 10 -i location/of/generated/plots/tunePlot%07d.jpg -i sourceaudio.mp3 -c:v libx264 -pix_fmt yuv420p yay-video!.mp4
 ```
