@@ -57,3 +57,5 @@ Then I used FFmpeg to stitch the images into a video, along with an mp3 of the s
 ```python
 ffmpeg -framerate 10 -i location/of/generated/plots/tunePlot%07d.jpg -i sourceaudio.mp3 -c:v libx264 -pix_fmt yuv420p yay-video!.mp4
 ```
+
+[![Experiment fail](/Azambai)](https://www.youtube.com/watch?v=jLtDQ5jCAA8 "Experiment Fail")
