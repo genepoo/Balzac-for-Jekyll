@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: about
 title: "Recent Posts"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
