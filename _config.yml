@@ -28,7 +28,7 @@ opengraph:
 links:
   - title: Blog
     url: /articles
-   - title: about
+  - title: about
     url: /about
   - title: Github
     url: https://github.com/genepoo
