@@ -3,5 +3,5 @@ layout: about
 title: "Recent Posts"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
-  feature: typewriter.jpg
+  feature: PoorviBG.jpg
 ---
